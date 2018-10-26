@@ -176,7 +176,7 @@
 .footable .open > .dropdown-toggle.btn-default {
     color: rgb(12, 23, 41);
     background-color: rgb(255, 255, 255);
-    border-color: rgb(222, 166, 000);
+    border-color: rgb(12,  23,  41,  0.8);
 }
 
 .footable .btn-primary {
@@ -193,7 +193,7 @@
 .footable .open > .dropdown-toggle.btn-primary {
     color: rgb(12, 23, 41);
     background-color: rgb(255, 255, 255);
-    border-color: rgb(222, 166, 000);
+    border-color: rgb(12,  23,  41,  0.8);
 }
 
 /* button groups */
@@ -492,7 +492,7 @@
 .footable .pagination > li > span:focus {
     color: rgba(12, 23, 41);
     background-color: #fff;
-    border-color: rgba(222, 166, 000);
+    border-color: rgba(12, 23, 41, 0.8);
 }
 
 .footable .pagination > .active > a,
@@ -504,8 +504,8 @@
     z-index: 2;
     color: #fff;
     cursor: default;
-    background-color: rgba(222, 166, 000);
-    border: 1px solid rgba(222, 166, 000);
+    background-color: rgb(12,  23,  41);
+    border: 1px solid rgb(12,  23,  41);
 }
 
 .footable .pagination > .disabled > span,
@@ -761,6 +761,7 @@ table.footable > tbody > tr.footable-detail-row > th {
 
 .fooicon-search:before {
     content: "\f002";
+  color: rgb(255, 255, 255);
 }
 
 .fooicon-remove:before {
@@ -884,7 +885,7 @@ table.footable > tfoot > tr > th.footable-sortable {
 
 
 table.footable > thead > tr > th.footable-sortable:hover {
-    color: rgb(222, 166, 000);
+    color: rgb(12,  23,  41,  0.8);
 }
 
 

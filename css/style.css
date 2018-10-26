@@ -1,0 +1,115 @@
+*
+{box-sizing: border-box;
+color:rgb(33, 37, 41);
+font-family: 'Raleway', sans-serif;}
+
+
+h1
+{
+     
+    font-size: 4rem;
+   color:rgb(255,255,255);
+ background-color:  rgba(33, 37, 41, 0.5);
+    text-align: center;
+    margin: 0;
+    padding: 20px 0 10px 0;
+    font-family: 'Merienda', cursive;
+    font-weight: 900;
+    width: auto;
+   
+    
+    }
+
+header
+{ position: relative;
+top:266px;
+}
+
+#main-nav.scroll {
+    background-color: rgb(255, 255, 255);
+}
+.lang-button
+{background-color: rgba(255, 255, 255, 0);
+border: none;}
+
+
+.lang-button:hover
+{
+    outline: none;
+ }
+
+
+.navbar-brand
+{font-size: 40px;
+color:rgb(33, 37, 41);
+font-weight: 700;}
+
+.nav-link
+{
+    font-size: 20px;
+    color:rgb(33, 37, 41);
+ 
+}
+
+.nav-link:hover, .navbar-brand:hover
+{
+       color:rgba(33, 37, 41, 0.8);
+}
+
+
+section
+{
+   margin: 10px 5%;
+    padding: 20px;;
+}
+
+
+.content-section {
+	overflow: hidden;
+	padding: 100px;
+}
+
+.parallax {
+	height: 360px;
+	background-size:cover;
+	
+ }
+
+#parallax-first {
+   
+	background-image: url(../img/background1.jpg);
+    background-position: left;
+    transition: all 2s linear;
+}
+
+#parallax-first:hover {
+    background-position: right;
+}
+
+
+#parallax-second {
+	background-image: url(../img/machu-picchu-1569324_1280.jpg);
+    background-attachment: fixed;
+  
+}
+
+h2
+{
+ text-align: center;   
+}
+
+
+.table-button {
+    width: 100%;
+    background-color: rgb(33, 37, 41);
+    color: rgb(255, 255, 255);
+    border:none;
+    margin: 2px;
+    outline: none;
+}
+
+.table-button:hover
+
+ {
+    background-color:rgba(33, 37, 41, 0.8);
+}
