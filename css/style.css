@@ -6,27 +6,28 @@ font-family: 'Raleway', sans-serif;}
 
 h1
 {
-     
-    font-size: 4rem;
-   color:rgb(255,255,255);
+position: absolute;
+top:50%;
+transform: translateY(-50%);
+width: 100%;
+font-size: 4em;;
+color:rgb(255,255,255);
  background-color:  rgba(33, 37, 41, 0.5);
-    text-align: center;
-    margin: 0;
-    padding: 20px 0 10px 0;
-    font-family: 'Merienda', cursive;
-    font-weight: 900;
-    width: auto;
-   
+text-align: center;
+margin: 0;
+padding: 10px 0;
+font-weight: 900;
+     
     
     }
 
 header
-{ position: relative;
-top:266px;
-}
+{ 
+    height: 86px;
+ }
 
 #main-nav.scroll {
-    background-color: rgb(255, 255, 255);
+background-color: rgb(255, 255, 255);
 }
 .lang-button
 {background-color: rgba(255, 255, 255, 0);
@@ -42,12 +43,14 @@ border: none;}
 .navbar-brand
 {font-size: 40px;
 color:rgb(33, 37, 41);
-font-weight: 700;}
+font-family: 'Merienda', cursive;
+font-weight: 900;}
 
 .nav-link
 {
     font-size: 20px;
     color:rgb(33, 37, 41);
+    font-family: 'Merienda', cursive;
  
 }
 
@@ -59,30 +62,40 @@ font-weight: 700;}
 
 section
 {
-   margin: 10px 5%;
-    padding: 20px;;
+margin: 10px 5%;
+padding: 50px 20px;;
 }
 
 
 .content-section {
 	overflow: hidden;
-	padding: 100px;
+	
 }
 
 .parallax {
 	height: 360px;
 	background-size:cover;
+    position: relative;
 	
  }
 
-#parallax-first {
-   
-	background-image: url(../img/background1.jpg);
+#parallax-first, #parallax-third { 	
     background-position: left;
     transition: all 2s linear;
 }
 
-#parallax-first:hover {
+#parallax-first{
+ background-image: url(../img/background1.jpg);   
+}
+
+
+#parallax-third {  
+	background-image: url(../img/background3.jpg);
+}
+
+#parallax-first:hover,
+#parallax-third:hover
+{
     background-position: right;
 }
 
@@ -90,12 +103,19 @@ section
 #parallax-second {
 	background-image: url(../img/machu-picchu-1569324_1280.jpg);
     background-attachment: fixed;
-  
 }
+
+
+
 
 h2
 {
- text-align: center;   
+text-align: center;  
+color: #e4da18;
+font-weight: 700;
+font-size: 3em;
+margin-bottom: 30px;
+    font-family: 'Merienda', cursive;
 }
 
 
