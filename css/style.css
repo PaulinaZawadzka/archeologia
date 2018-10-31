@@ -3,6 +3,9 @@
 color:rgb(33, 37, 41);
 font-family: 'Raleway', sans-serif;}
 
+a
+{text-decoration: none;
+}
 
 h1
 {
@@ -54,13 +57,14 @@ font-weight: 900;}
  
 }
 
-.nav-link:hover, .navbar-brand:hover
+.nav-link:hover, .navbar-brand:hover, .map-page:hover
 {
        color:rgba(33, 37, 41, 0.8);
+    text-decoration: none;
 }
 
 
-section
+section, footer
 {
 margin: 10px 5%;
 padding: 50px 20px;;
@@ -68,7 +72,7 @@ padding: 50px 20px;;
 
 
 .content-section {
-	overflow: hidden;
+overflow: hidden;
 	
 }
 
@@ -106,7 +110,8 @@ padding: 50px 20px;;
 }
 
 
-
+p
+{font-size: 1.2em;}
 
 h2
 {
@@ -133,3 +138,31 @@ margin-bottom: 30px;
  {
     background-color:rgba(33, 37, 41, 0.8);
 }
+
+h3
+{
+text-align: left;  
+color: #e4da18;
+font-weight: 700;
+font-size: 1.5em;
+margin-bottom: 30px;
+font-family: 'Merienda', cursive;
+}
+
+.underscore::after{
+    content:"";
+    display: block;
+    width: 25px;
+    margin-top: 10px;
+    height: 4px;
+    background: black;
+}
+
+.map-page
+{
+font-size:   1.2em;
+color: black; 
+display: block;
+margin-bottom: 10px;
+}
+
