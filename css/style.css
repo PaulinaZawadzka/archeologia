@@ -1,14 +1,85 @@
-*
-{box-sizing: border-box;
+* {
+box-sizing: border-box;
 color:rgb(33, 37, 41);
 font-family: 'Raleway', sans-serif;}
 
-a
-{text-decoration: none;
+a {
+    text-decoration: none;
 }
 
-h1
-{
+p {
+    font-size: 1.2em;
+}
+
+/*header style */
+
+header { 
+    height: 86px;
+ }
+
+#main-nav.scroll {
+background-color: rgb(255, 255, 255);
+}
+
+.lang-button {
+background-color: rgba(255, 255, 255, 0);
+border: none;
+}
+
+.lang-button:hover {
+    outline: none;
+ }
+
+.navbar-brand {
+font-size: 40px;
+color:rgb(33, 37, 41);
+font-family: 'Merienda', cursive;
+font-weight: 900;
+}
+
+.nav-link {
+    font-size: 20px;
+    color:rgb(33, 37, 41);
+    font-family: 'Merienda', cursive;
+}
+
+.nav-link:hover, .navbar-brand:hover, .map-page:hover {
+       color:rgba(33, 37, 41, 0.8);
+    text-decoration: none;
+}
+
+/* Aside - background, h1 */
+.asied-background-photo {
+	height: 360px;
+	background-size:cover;
+    position: relative;
+ }
+
+#background-first, #background-third { 	
+    background-position: left;
+    transition: all 2s linear;
+}
+
+#background-first {
+ background-image: url(../img/background1.jpg);   
+}
+
+
+#background-third {  
+	background-image: url(../img/background3.jpg);
+}
+
+#background-first:hover,
+#background-third:hover {
+    background-position: right;
+}
+
+#parallax-first {
+	background-image: url(../img/machu-picchu-1569324_1280.jpg);
+    background-attachment: fixed;
+}
+
+h1 {
 position: absolute;
 top:50%;
 transform: translateY(-50%);
@@ -20,109 +91,28 @@ text-align: center;
 margin: 0;
 padding: 10px 0;
 font-weight: 900;
-     
-    
-    }
-
-header
-{ 
-    height: 86px;
- }
-
-#main-nav.scroll {
-background-color: rgb(255, 255, 255);
-}
-.lang-button
-{background-color: rgba(255, 255, 255, 0);
-border: none;}
-
-
-.lang-button:hover
-{
-    outline: none;
- }
-
-
-.navbar-brand
-{font-size: 40px;
-color:rgb(33, 37, 41);
-font-family: 'Merienda', cursive;
-font-weight: 900;}
-
-.nav-link
-{
-    font-size: 20px;
-    color:rgb(33, 37, 41);
-    font-family: 'Merienda', cursive;
- 
-}
-
-.nav-link:hover, .navbar-brand:hover, .map-page:hover
-{
-       color:rgba(33, 37, 41, 0.8);
-    text-decoration: none;
 }
 
 
-section, footer
-{
+/*section style */
+section, footer {
 margin: 10px 5%;
 padding: 50px 20px;;
 }
-
 
 .content-section {
 overflow: hidden;
 	
 }
 
-.parallax {
-	height: 360px;
-	background-size:cover;
-    position: relative;
-	
- }
-
-#parallax-first, #parallax-third { 	
-    background-position: left;
-    transition: all 2s linear;
-}
-
-#parallax-first{
- background-image: url(../img/background1.jpg);   
-}
-
-
-#parallax-third {  
-	background-image: url(../img/background3.jpg);
-}
-
-#parallax-first:hover,
-#parallax-third:hover
-{
-    background-position: right;
-}
-
-
-#parallax-second {
-	background-image: url(../img/machu-picchu-1569324_1280.jpg);
-    background-attachment: fixed;
-}
-
-
-p
-{font-size: 1.2em;}
-
-h2
-{
+h2 {
 text-align: center;  
-color: #e4da18;
+color: rgb(228, 218, 24);
 font-weight: 700;
 font-size: 3em;
 margin-bottom: 30px;
     font-family: 'Merienda', cursive;
 }
-
 
 .table-button {
     width: 100%;
@@ -133,14 +123,11 @@ margin-bottom: 30px;
     outline: none;
 }
 
-.table-button:hover
-
- {
+.table-button:hover {
     background-color:rgba(33, 37, 41, 0.8);
 }
 
-h3
-{
+h3 {
 text-align: left;  
 color: #e4da18;
 font-weight: 700;
@@ -149,7 +136,7 @@ margin-bottom: 30px;
 font-family: 'Merienda', cursive;
 }
 
-.underscore::after{
+.underscore::after {
     content:"";
     display: block;
     width: 25px;
@@ -158,11 +145,30 @@ font-family: 'Merienda', cursive;
     background: black;
 }
 
-.map-page
-{
+.map-page {
 font-size:   1.2em;
 color: black; 
 display: block;
 margin-bottom: 10px;
 }
 
+/*footer style */
+footer {
+text-align: center;
+margin: 0;
+padding:20px;
+background-color: rgb(33, 37, 41);
+}
+
+.color-white {
+ color:rgb(255,255,255);   
+}
+
+footer a {
+color:rgb(255,255,255);    
+}
+
+footer a:hover {
+text-decoration: none;
+color:rgb(228, 218, 24);    
+}

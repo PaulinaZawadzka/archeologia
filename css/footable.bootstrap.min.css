@@ -175,8 +175,8 @@
 .footable .btn-default.active,
 .footable .open > .dropdown-toggle.btn-default {
     color: rgb(12, 23, 41);
-    background-color: rgb(255, 255, 255);
-    border-color: rgb(12,  23,  41,  0.8);
+    background-color: rgba(12,  23,  41,  0.8);
+    border-color: rgba(12,  23,  41,  0.8);
 }
 
 .footable .btn-primary {
@@ -192,9 +192,14 @@
 .footable .btn-primary.active,
 .footable .open > .dropdown-toggle.btn-primary {
     color: rgb(12, 23, 41);
-    background-color: rgb(255, 255, 255);
-    border-color: rgb(12,  23,  41,  0.8);
+    background-color: rgba(12,  23,  41,  0.8);
+    border-color: rgba(12,  23,  41,  0.8);
 }
+
+
+
+
+
 
 /* button groups */
 
@@ -259,6 +264,7 @@
 
 .footable .btn .caret {
     margin-left: 0;
+    display: none;
 }
 
 /* form-group */
