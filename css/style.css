@@ -172,8 +172,13 @@ p.question {
 }
 
 .image-box {
-    height: 200px;
+    margin-top: 20px;
+    text-align: center;
+    height: 300px;
+    overflow: hidden;
+
 }
+
 
 button.result {
     margin: 50px 0;
@@ -208,8 +213,9 @@ buttn:focus {
     color: red;
 }
 
+
 .img-quiz {
-    width: 100%;
+    height: 100%;
 }
 
 h2.foto-name {
@@ -251,10 +257,11 @@ footer a:hover {
 
 /*responsive */
 
-@media (max-width: 734px) {
+@media (max-width: 900px) {
 
     h1,
     h2 {
         font-size: 2em;
     }
+
 }
