@@ -1,7 +1,8 @@
 * {
-box-sizing: border-box;
-color:rgb(33, 37, 41);
-font-family: 'Raleway', sans-serif;}
+    box-sizing: border-box;
+    color: rgb(33, 37, 41);
+    font-family: 'Raleway', sans-serif;
+}
 
 a {
     text-decoration: none;
@@ -9,64 +10,72 @@ a {
 
 p {
     font-size: 1.2em;
+    text-align: justify;
+}
+
+button {
+    transition-duration: 0.5s;
 }
 
 /*header style */
 
-header { 
+header {
     height: 86px;
- }
+}
 
 #main-nav.scroll {
-background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
 }
 
 .lang-button {
-background-color: rgba(255, 255, 255, 0);
-border: none;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
 }
 
 .lang-button:hover {
     outline: none;
- }
+}
 
 .navbar-brand {
-font-size: 40px;
-color:rgb(33, 37, 41);
-font-family: 'Merienda', cursive;
-font-weight: 900;
+    font-size: 40px;
+    color: rgb(33, 37, 41);
+    font-family: 'Merienda', cursive;
+    font-weight: 900;
 }
 
 .nav-link {
     font-size: 20px;
-    color:rgb(33, 37, 41);
+    color: rgb(33, 37, 41);
     font-family: 'Merienda', cursive;
 }
 
-.nav-link:hover, .navbar-brand:hover, .map-page:hover {
-       color:rgba(33, 37, 41, 0.8);
+.nav-link:hover,
+.navbar-brand:hover,
+.map-page:hover {
+    color: rgba(33, 37, 41, 0.8);
     text-decoration: none;
 }
 
 /* Aside - background, h1 */
 .asied-background-photo {
-	height: 360px;
-	background-size:cover;
+    height: 360px;
+    background-size: cover;
     position: relative;
- }
+}
 
-#background-first, #background-third { 	
+#background-first,
+#background-third {
     background-position: left;
     transition: all 2s linear;
 }
 
 #background-first {
- background-image: url(../img/background1.jpg);   
+    background-image: url(../img/background1.jpg);
 }
 
 
-#background-third {  
-	background-image: url(../img/background3.jpg);
+#background-third {
+    background-image: url(../img/background3.jpg);
 }
 
 #background-first:hover,
@@ -75,42 +84,44 @@ font-weight: 900;
 }
 
 #parallax-first {
-	background-image: url(../img/machu-picchu-1569324_1280.jpg);
+    background-image: url(../img/machu-picchu-1569324_1280.jpg);
     background-attachment: fixed;
 }
 
 h1 {
-position: absolute;
-top:50%;
-transform: translateY(-50%);
-width: 100%;
-font-size: 4em;;
-color:rgb(255,255,255);
- background-color:  rgba(33, 37, 41, 0.5);
-text-align: center;
-margin: 0;
-padding: 10px 0;
-font-weight: 900;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    font-size: 4em;
+    color: rgb(255, 255, 255);
+    background-color: rgba(33, 37, 41, 0.5);
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    font-weight: 900;
 }
 
 
 /*section style */
-section, footer {
-margin: 10px 5%;
-padding: 50px 20px;;
+section,
+footer {
+    margin: 10px 5%;
+    padding: 50px 20px;
+    ;
 }
 
 .content-section {
-overflow: hidden;
-	
+    overflow: hidden;
+
 }
 
 h2 {
-text-align: center;  
-color: rgb(228, 218, 24);
-font-weight: 700;
-font-size: 3em;
-margin-bottom: 30px;
+    text-align: center;
+    color: rgb(228, 218, 24);
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: 30px;
     font-family: 'Merienda', cursive;
 }
 
@@ -118,26 +129,26 @@ margin-bottom: 30px;
     width: 100%;
     background-color: rgb(33, 37, 41);
     color: rgb(255, 255, 255);
-    border:none;
+    border: none;
     margin: 2px;
     outline: none;
 }
 
 .table-button:hover {
-    background-color:rgba(33, 37, 41, 0.8);
+    background-color: rgba(33, 37, 41, 0.8);
 }
 
 h3 {
-text-align: left;  
-color: #e4da18;
-font-weight: 700;
-font-size: 1.5em;
-margin-bottom: 30px;
-font-family: 'Merienda', cursive;
+    text-align: left;
+    color: #e4da18;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    font-family: 'Merienda', cursive;
 }
 
 .underscore::after {
-    content:"";
+    content: "";
     display: block;
     width: 25px;
     margin-top: 10px;
@@ -146,29 +157,104 @@ font-family: 'Merienda', cursive;
 }
 
 .map-page {
-font-size:   1.2em;
-color: black; 
-display: block;
-margin-bottom: 10px;
+    font-size: 1.2em;
+    color: black;
+    display: block;
+    margin-bottom: 10px;
 }
+
+/* Quiz style*/
+
+p.question {
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+.image-box {
+    height: 200px;
+}
+
+button.result {
+    margin: 50px 0;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(33, 37, 41);
+    border: 1px solid #e4da18;
+    padding: 10px 40px;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+button:hover,
+button:active,
+buttn:focus {
+    background-color: #e4da18;
+    border: 1px solid rgb(33, 37, 41);
+    outline: none;
+}
+
+.result-message {
+    text-align: center;
+    font-size: 25px;
+    color: #e4da18;
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+
+}
+
+.result-message-bad {
+    color: red;
+}
+
+.img-quiz {
+    width: 100%;
+}
+
+h2.foto-name {
+    position: relative;
+    top: -50%;
+    transform: translateY(-50%);
+    background-color: rgba(33, 37, 41, 0.8);
+    opacity: 0;
+}
+
+
 
 /*footer style */
 footer {
-text-align: center;
-margin: 0;
-padding:20px;
-background-color: rgb(33, 37, 41);
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(33, 37, 41);
 }
 
 .color-white {
- color:rgb(255,255,255);   
+    color: rgb(255, 255, 255);
 }
 
 footer a {
-color:rgb(255,255,255);    
+    color: rgb(255, 255, 255);
 }
 
 footer a:hover {
-text-decoration: none;
-color:rgb(228, 218, 24);    
+    text-decoration: none;
+    color: rgb(228, 218, 24);
+}
+
+
+.img-quiz-select {
+    border: 1px solid rgb(228, 218, 24);
+}
+
+
+/*responsive */
+
+@media (max-width: 734px) {
+
+    h1,
+    h2 {
+        font-size: 2em;
+    }
 }
