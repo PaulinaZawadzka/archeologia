@@ -16,7 +16,7 @@ $(function () {
 	/* Efekt Smooth Scroll */
 
 	$('a[href*="#"]:not([href="#"])').click(function () {
-		console.log('test');
+
 		$('html, body').animate({
 			scrollTop: $(this.hash).offset().top - 74
 		}, 500);
@@ -53,7 +53,6 @@ const fotos = [...document.querySelectorAll('.select img')];
 const result = document.createElement('div');
 result.classList.add('result-message');
 
-
 function fotoSelection() {
 	fotos.forEach(foto => foto.style.boxShadow = "");
 	this.style.boxShadow = ' 0 0 30px rgb(228, 218, 24)';
@@ -82,12 +81,8 @@ function quizResult() {
 		result.remove();
 	}, 5000)
 
-
-
 }
 
-
 fotos.forEach(foto => foto.addEventListener("click", fotoSelection));
-
 
 btn.addEventListener('click', quizResult);

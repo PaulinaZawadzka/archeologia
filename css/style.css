@@ -13,9 +13,6 @@ p {
     text-align: justify;
 }
 
-button {
-    transition-duration: 0.5s;
-}
 
 /*header style */
 
@@ -25,15 +22,6 @@ header {
 
 #main-nav.scroll {
     background-color: rgb(255, 255, 255);
-}
-
-.lang-button {
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
-}
-
-.lang-button:hover {
-    outline: none;
 }
 
 .navbar-brand {
@@ -50,9 +38,11 @@ header {
 }
 
 .nav-link:hover,
+.nav-link:active,
+.nav-link:focus,
 .navbar-brand:hover,
 .map-page:hover {
-    color: rgba(33, 37, 41, 0.8);
+    color: rgba(33, 37, 41, 0.5);
     text-decoration: none;
 }
 
@@ -73,7 +63,6 @@ header {
     background-image: url(../img/background1.jpg);
 }
 
-
 #background-third {
     background-image: url(../img/background3.jpg);
 }
@@ -88,7 +77,7 @@ header {
     background-attachment: fixed;
 }
 
-h1 {
+.text-shadow {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -102,21 +91,18 @@ h1 {
     font-weight: 900;
 }
 
-
 /*section style */
 section,
 footer {
     margin: 10px 5%;
     padding: 50px 20px;
-    ;
 }
 
 .content-section {
     overflow: hidden;
-
 }
 
-h2 {
+.section-title {
     text-align: center;
     color: rgb(228, 218, 24);
     font-weight: 700;
@@ -125,20 +111,7 @@ h2 {
     font-family: 'Merienda', cursive;
 }
 
-.table-button {
-    width: 100%;
-    background-color: rgb(33, 37, 41);
-    color: rgb(255, 255, 255);
-    border: none;
-    margin: 2px;
-    outline: none;
-}
-
-.table-button:hover {
-    background-color: rgba(33, 37, 41, 0.8);
-}
-
-h3 {
+.underscore {
     text-align: left;
     color: #e4da18;
     font-weight: 700;
@@ -177,11 +150,13 @@ p.question {
     height: 300px;
     overflow: hidden;
     padding: 10px;
-
 }
 
+.btn {
+    transition-duration: 0.5s;
+}
 
-button.result {
+.result {
     margin: 50px 0;
     font-size: 25px;
     color: rgb(255, 255, 255);
@@ -190,12 +165,11 @@ button.result {
     padding: 10px 40px;
     border-radius: 5px;
     outline: none;
-
 }
 
-button:hover,
-button:active,
-buttn:focus {
+.btn:hover,
+.btn:active,
+.btn:focus {
     background-color: #e4da18;
     border: 1px solid rgb(33, 37, 41);
     outline: none;
@@ -207,13 +181,11 @@ buttn:focus {
     color: #e4da18;
     font-family: 'Merienda', cursive;
     font-weight: bold;
-
 }
 
 .result-message-bad {
-    color: red;
+    color: rgba(255, 0, 0, 1);
 }
-
 
 .img-quiz {
     height: 90%;
