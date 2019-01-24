@@ -20,6 +20,10 @@ header {
     height: 86px;
 }
 
+#navbarNav {
+    z-index: 100;
+}
+
 #main-nav.scroll {
     background-color: rgb(255, 255, 255);
 }
@@ -47,6 +51,10 @@ header {
 }
 
 /* Aside - background, h1 */
+.welcome-text {
+    position: relative;
+}
+
 .asied-background-photo {
     height: 360px;
     background-size: cover;
@@ -61,6 +69,7 @@ header {
 
 #background-first {
     background-image: url(../img/background1.jpg);
+    position: static;
 }
 
 #background-third {
@@ -79,8 +88,6 @@ header {
 
 .text-shadow {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
     width: 100%;
     font-size: 4em;
     color: rgb(255, 255, 255);
@@ -89,6 +96,16 @@ header {
     margin: 0;
     padding: 10px 0;
     font-weight: 900;
+}
+
+.text-shadow-start {
+    top: -100px;
+
+}
+
+.text-shadow-end {
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /*section style */
