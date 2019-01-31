@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Platforma Archeologiczna</title>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,800&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merienda:400,700&amp;subset=latin-ext" rel="stylesheet">
@@ -85,10 +85,18 @@
 
     <section id="table" class="content-section">
         <h2 class="section-title">Stanowiska archeologiczne w Polsce</h2>
-        <table class="table" data-filtering="true" data-sorting="true" data-paging="true" data-paging-size="4">
+
+        <div class="search-panel">
+            <span><i class="fa fa-search" aria-hidden="true"></i></span>
+            <input type="text" id="search" class="search" placeholder="Szukaj">
+        </div>
+
+
+
+        <table id="table" class="table">
 
             <thead>
-                <tr>
+                <tr class="table-headings">
                     <th data-breakpoints="xs" data-type="number">ID</th>
                     <th>Nazwa stanowiska</th>
                     <th>Województwo</th>

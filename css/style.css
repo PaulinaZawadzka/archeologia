@@ -4,6 +4,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
+
 a {
     text-decoration: none;
 }
@@ -153,6 +154,32 @@ footer {
     margin-bottom: 10px;
 }
 
+/*table style*/
+
+
+#search {
+    border: none;
+    outline: none;
+}
+
+.search-panel {
+    width: 300px;
+    ;
+    border: 2px solid #dee2e6;
+    margin: 10px 0;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.search-panel span {
+    margin-right: 10px;
+}
+
+
+
+
+
+
 /* Quiz style*/
 
 p.question {
@@ -180,7 +207,7 @@ p.question {
     background-color: rgb(33, 37, 41);
     border: 1px solid #e4da18;
     padding: 10px 40px;
-    border-radius: 5px;
+    border-radius: 10px;
     outline: none;
 }
 
